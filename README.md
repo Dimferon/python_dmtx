@@ -1,2 +1,2 @@
 # python_dmtx
-python обертка на dmtx_python
+python обертка на проект (dtmx)[https://github.com/dmtx/libdmtx]
