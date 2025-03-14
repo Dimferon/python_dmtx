@@ -1,7 +1,7 @@
 from sipbuild import Option, Project, PyProjectOptionException
 
 
-class DtmxProject(Project):
+class CoreProject(Project):
     """ A project that adds an additional configuration option and introspects
     the system to determine its value.
     """
@@ -48,5 +48,5 @@ class DtmxProject(Project):
         """ Update the project configuration. """
 
         # Get the 'core' bindings and add the platform to the list of tags.
-        core_bindings = self.bindings['dtmx']
+        core_bindings = self.bindings['core']
         core_bindings.tags.append(self.platform)
